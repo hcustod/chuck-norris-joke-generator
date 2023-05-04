@@ -15,6 +15,8 @@ An example response...
 
 const api_endpoint = "https://api.chucknorris.io/jokes/random";
 
+// should get in the habit of naming constant global variables in all caps...
+
 const button = document.getElementById("new-quote");
 const quote_display = document.getElementById("quote-display");
 const image_display = document.getElementById("image-display");
